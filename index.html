@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Muda Foto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	
+	<script type="text/javascript">
+		
+		function img01 (){
+			document.getElementById("trocarimg").src="rosa.jpg";
+		}
+
+		function img02 (){
+    	document.getElementById("trocarimg").src="azul.jpg";
+		}
+
+		function img03 (){
+    	document.getElementById("trocarimg").src="sexos.jpg";
+		}
+
+	</script>
+
+	</head>
+<body>
+	<h1>Troca imagens com JavaScript</h1>
+	<div class="imagens">
+		
+		<img src="sexos.jpg" alt="imagem alterada por js" id="trocarimg"><br/><br/>
+		<input type="button" name="" value="Femenino" onclick="img01();">
+		<input type="button" name="" value="Masculino" onclick="img02();">
+		<input type="button" name="" value="Voltar" onclick="img03();">
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		form{
+			background-color: #4682B4;
+			text-transform: uppercase;
+			font-weight: bolder;
+			display: block;
+			border: 1px solid #000;
+			margin: 10px 400px auto;
+			padding: 10px;
+			width: 400px;
+		}
+		input {
+			
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="nome">Nome</label>
+		<input type="text" name="nome" id="nome" placeholder="Digite seu nome" checked=""><br>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="exemplo@exemplo.com"><br>
+		Sexo:<br>
+		Masculino<input type="radio" name="sexo" id="masc" value="1" checked="">
+		Feminino<input type="radio" name="sexo" id="fem" value="2"><br>
+		<label for="senha">Senha</label>
+		<input type="password" name="senha" id="senha" placeholder= "**********" checked="" min="6" maxlength="8"><br>
+		<input type="button" name="" value="Salvar">
+		<input type="button" name="" value="Limpar">
+	</form>
+</body>
+</html>
